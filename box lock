@@ -25,7 +25,7 @@ getgenv().AutoPrediction = false
     Tracer.Parent = game.Workspace	
     Tracer.Shape = _G.Types.Block
     Tracer.Size = Vector3.new(14,14,14)
-    Tracer.Color = Color3.fromRGB(0, 128, 0)
+    Tracer.Color = Color3.fromRGB(0,0,0)
     
     --
     local plr = game.Players.LocalPlayer
@@ -33,7 +33,7 @@ local mouse = plr:GetMouse()
 local Runserv = game:GetService("RunService")
 
 circle = Drawing.new("Circle")
-circle.Color = Color3.fromRGB(0, 128, 0)
+circle.Color = Color3.fromRGB(0,0,0)
 circle.Thickness = 0
 circle.NumSides = 732
 circle.Radius = 120
